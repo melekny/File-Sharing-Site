@@ -1,4 +1,4 @@
-﻿# Dosya Paylaşım Sitesi 
+﻿# DOSYA PAYLAŞIM SİTESİ
 ## Proje Tanımı
 
 - Ziyaretçiler bir e-posta adresi ve şifre ile üyelik oluşturabilmelidir.
@@ -17,5 +17,5 @@ silebilmelidir. Ayrıca kullanılmış linklerin, ne zaman kullanıldığını g
 Dosyalar "App_Data" klasörünün altında her bir üye için açılmış klasörler altında depolanacaktır.
 - (App_Data/Üye Kimliği/Dosya Kimliği)
 
-## PROJE SÜRECİ (TAMAMLANMADI)
+## Proje Süreci (Tamamlanmadı)
 Projenin veri tabanı bağlantısı ve ilgili servislerin yazılması konusunda eksiklikleri ve hataları vardır, düzgün bir şekilde çalışmamaktadır. Eksiklikler ve hataların giderilmesi konusunda çalışmalarım devam etmektedir.
