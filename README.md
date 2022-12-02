@@ -1,4 +1,4 @@
-﻿# Dosya Paylaşım Sitesi
+﻿# Dosya Paylaşım Sitesi 
 ## Proje Tanımı
 
 - Ziyaretçiler bir e-posta adresi ve şifre ile üyelik oluşturabilmelidir.
@@ -14,4 +14,4 @@ silebilmelidir. Ayrıca kullanılmış linklerin, ne zaman kullanıldığını g
 ## Dosyaların Saklanma Şekli
 
 Dosyalar "App_Data" klasörünün altında her bir üye için açılmış klasörler altında depolanacaktır.
-(App_Data/Üye Kimliği/Dosya Kimliği)
+- (App_Data/Üye Kimliği/Dosya Kimliği)
