@@ -5,6 +5,7 @@
 - Üyeler kendi üyelikleri altında sanal klasörler oluşturabilmeli, bilgilerini değiştirebilmeli ve silebilmelidirler.
 Bir sanal klasör silindiğinde tüm alt dosyaları da silinmelidir.
 - Üyeler belirledikleri sanal klasörler altına dosya yükleyebilmeli, dosya adını değiştirebilmeli ve silebilmelidir.
+- Üye, klasör ve dosya bilgileri veri tabanında tanımlanmalıdır.
 
 - Üyeler istedikleri bir dosya için tek seferlik kullanılabilen bir link oluşturabilmelidir.
 - Tek seferlik linkler, üyelik gerektirmeden herhangi bir kişi tarafından da kullanılabilmelidir.
