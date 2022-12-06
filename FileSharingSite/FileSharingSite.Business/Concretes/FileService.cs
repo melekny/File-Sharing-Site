@@ -1,4 +1,6 @@
 ﻿using FileSharingSite.Business.Abstracts;
+using FileSharingSite.DataAccess.EntityFramework.Repository.Abstracts;
+using FileSharingSite.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +14,7 @@ namespace FileSharingSite.Business.Concretes
         private readonly IRepository<File> repository;
         private readonly IUnitOfWork unitOfWork;
 
-        public BillService(IRepository<File> repository, IUnitOfWork unitOfWork)
+        public FileService(IRepository<File> repository, IUnitOfWork unitOfWork)
         {
             this.repository = repository;
             this.unitOfWork = unitOfWork;

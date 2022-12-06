@@ -1,4 +1,6 @@
 ﻿using FileSharingSite.Business.Abstracts;
+using FileSharingSite.DataAccess.EntityFramework.Repository.Abstracts;
+using FileSharingSite.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +31,16 @@ public class FolderService : IFolderService
     {
         repository.Delete(folder);
         unitOfWork.Commit();
+    }
+
+    public void DeleteFolder(Folder folder)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<Folder> GetAllFile()
+    {
+        throw new NotImplementedException();
     }
 
     public List<Folder> GetAllFolder()

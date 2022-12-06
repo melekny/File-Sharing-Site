@@ -13,4 +13,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FileSharingSite.DataAccess.EntityFramework\FileSharingSite.DataAccess.EntityFramework.csproj" />
+  </ItemGroup>
+
 </Project>
