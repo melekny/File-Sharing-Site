@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FileSharingSite.Domain.Entities
 {
-    internal class Folder
+    public class Folder
     {
         public string FolderName { get; set; }
         public string FolderDescription { get; set; }

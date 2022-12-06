@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FileSharingSite.Domain.Entities
 {
-    internal class File
+    public class File
     {
         public Guid Id { get; set; }
         public string FileName { get; set; }                        
